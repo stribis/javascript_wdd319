@@ -66,3 +66,39 @@
   1. Repetition exercise: Working with functions
 
 ---
+### :calendar: Week 4
+#### Day 1
+* :notebook: Lesson
+  1. Dom Manipulation basics
+    * Selection of elements
+    * Adding elements
+    * Deleting elements
+    * Changing element properties
+* :hammer_and_wrench: Exercises
+  1. Function exercise
+#### Day 2
+* :notebook: Lesson
+  1. Events
+  2. ES6 Template strings
+  3. Variable scope (`let const var`) 
+* :hammer_and_wrench: Exercises
+  1. Click event exercise
+
+---
+### :calendar: Week 5
+#### Day 1
+* :notebook: Lesson
+  1. Image Gallery
+  2. Events repetition
+  3. Dropdown menu
+* :hammer_and_wrench: Exercises
+  1. Events exercise
+#### Day 2
+* :notebook: Lesson
+  1. Form Validation
+  2. Dropdown Repetition
+  3. Kahoot quiz
+* :hammer_and_wrench: Exercises
+  1. Kahoot quiz
+
+---

@@ -25,36 +25,6 @@
 **/ 
 
 // Code
-var person = {
-  name: {
-    first : 'John',
-    last : 'Smith'
-  },
-  age : 54,
-  hobbies: [ 'Golf', 'Reading' , 'Swimming'],
-  greeting: function(){
-    console.log('My name is ' + this.name.first + ' ' + this.name.last + ' and I am '+ this.age +' years old')
-  },
-  books: [
-    {
-      author : 'J.K Rowling',
-      name   : 'Harry Potter'
-
-    },
-    {
-      author : 'Stephen King',
-      name   : 'Pet Sematary'
-    },
-    {
-      author : 'Herman Melville',
-      name   : 'Moby Dick'
-    }
-  ],
-  social: function (){
-    console.log('My favorite book is ' + this.books[1].name + ' by '+ this.books[1].author)
-  }
-
-}
 
 /**
  * 2. Create a function
@@ -65,15 +35,7 @@ var person = {
  * log the result of the function to the console using the sentence : The quick brown fox jumps over the lazy dog
 **/
 
-var myString = 'The quick brown fox jumps over the lazy dog'
 
-function deletOr (str) {
-  var smallString = str.toLowerCase()
-  if ( smallString.indexOf('o') > -1){
-    smallString = smallString.replace(/o/g, '')
-  }
-  return smallString
-}
 
 // console.log(deletOr(myString))
 
@@ -86,25 +48,7 @@ function deletOr (str) {
  *        If it isnt a prime then log ? 'Your number: <number>, is not prime!  
 **/
 
-function evenOdds (n) {
-  if (n % 2 == 0) { 
-    console.log('Your Number ' + n + ' is even')
-  }else{
-    console.log('Your Number ' + n + ' is odd')
-  }
-} 
 
-evenOdds(4)
-
-
-function isPrime(n) {
-  for( let i = 2; i < n; i++){
-    if (n % i === 0) {
-        console.log('Your number ' + n + ' is not a prime')
-    }
-  }
-  console.log('Your number ' + n + ' is a prime')
-}
 
 
 /**
@@ -116,15 +60,7 @@ function isPrime(n) {
 **/
 
 // Code
-person.books.push({
-  author: 'Charles Dickens',
-  name: 'Great Expectations'
-})
 
-person.hobbies.pop()
-person.hobbies.shift()
-
-person.hobbies.push('Book Club', 'Writing')
 
 /**
  * 5. John is now a writer, but he is a terrible one, he does not use punctuation ( . ! , )
@@ -134,9 +70,3 @@ person.hobbies.push('Book Club', 'Writing')
 
 
 
-
-person.write = function (sentence) {
-  sentence = sentence.replace('.', '')
-  sentence = sentence.replace(',', '')
-  sentence = sentence.replace('!', '')
-}
