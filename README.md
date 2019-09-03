@@ -8,6 +8,8 @@
 |:one:    |[Basics: Syntax, variables, data types...](https://github.com/stribis/javascript_wdd319#calendar-week-1)|
 |:two:   |[Basics: Alert, confirm, prompt arrays and strings...](https://github.com/stribis/javascript_wdd319#calendar-week-2)|
 |:three:    |[Basics: Functions, objects, continue, break...](https://github.com/stribis/javascript_wdd319#calendar-week-3)|
+|:four:    |[Dom Manipulation basics](https://github.com/stribis/javascript_wdd319#calendar-week-4)|
+|:three:    |[Gallery, form validation, repetition](https://github.com/stribis/javascript_wdd319#calendar-week-5)|
 ---
 ### :calendar: Week 1
 #### Day 1
