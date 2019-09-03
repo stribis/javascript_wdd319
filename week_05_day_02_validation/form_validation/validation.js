@@ -159,19 +159,3 @@ function sendForm(data){
 }
 
 
-document.querySelector('textarea').addEventListener('input', e => {
-
-  if( !document.querySelector('.counterBox')){
-    const counterBox = document.createElement('span')
-    counterBox.setAttribute('class', 'counterBox')
-    e.target.after(counterBox)
-    console.log(e.target.textLength)
-  }
-  document.querySelector('.counterBox').innerHTML = e.target.textLength
-
-  if(e.target.textLength < 20){
-    document.querySelector('.counterBox').style.color = 'lime'
-  }else{
-    document.querySelector('.counterBox').style.color = 'red'
-  }
-})
