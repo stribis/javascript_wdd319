@@ -9,7 +9,8 @@
 |:two:   |[Basics: Alert, confirm, prompt arrays and strings...](https://github.com/stribis/javascript_wdd319#calendar-week-2)|
 |:three:    |[Basics: Functions, objects, continue, break...](https://github.com/stribis/javascript_wdd319#calendar-week-3)|
 |:four:    |[Dom Manipulation basics](https://github.com/stribis/javascript_wdd319#calendar-week-4)|
-|:three:    |[Gallery, form validation, repetition](https://github.com/stribis/javascript_wdd319#calendar-week-5)|
+|:five:    |[Gallery, form validation, repetition](https://github.com/stribis/javascript_wdd319#calendar-week-5)|¨
+|:six:    |[Repetition of form validation](https://github.com/stribis/javascript_wdd319#calendar-week-6)|
 ---
 ### :calendar: Week 1
 #### Day 1
@@ -102,5 +103,16 @@
   3. Kahoot quiz
 * :hammer_and_wrench: Exercises
   1. Kahoot quiz
+
+---
+### :calendar: Week 6
+#### Day 1
+* :notebook: Lesson
+  1. Repetition of form validation
+    * Added text area 
+    * Dynamic counter
+    * Validation for text area
+* :hammer_and_wrench: Exercises
+  1. Class exercise - JS component
 
 ---
