@@ -116,3 +116,17 @@
   1. Class exercise - JS component
 
 ---
+### :calendar: Week 6
+#### Day 2
+* :notebook: Lesson
+  1. Loading JS 
+    * On load 
+    * Defer
+    * DomContentLoaded
+* :hammer_and_wrench: Exercises
+  1. Repetition: Button Exercise
+    * Press on the circle to create boxes in the page. 
+    * Add a counter 
+    * Change the background color of the created boxes depending on how many are present
+
+---
